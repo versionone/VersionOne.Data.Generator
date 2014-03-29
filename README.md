@@ -17,4 +17,4 @@ The tool was initially used by the Services team for creating training data for 
 
 While the tool does the majority of its work using the VersionOne .NET API Client, it can only be used with an on-premise instance of VersionOne as it makes some changes directly in the VersionOne database. Therefore, direct SQL Server database access is required which is not available when using a hosted instance of VersionOne.
 
-The application is controlled by the app.config file which contains configurations for the V1 instance, the SQL Server database, logging, and a few other configurations that toggle how the sample data is constructed.
+The tool is controlled by the app.config file which contains configurations for the V1 instance, the SQL Server database, logging, and a few other configurations that toggle how the sample data is constructed.
